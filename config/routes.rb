@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+	root 'do_more#home'
+  get 'do_more/home'
+  get 'do_more/about'
+  get 'do_more/signin'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
